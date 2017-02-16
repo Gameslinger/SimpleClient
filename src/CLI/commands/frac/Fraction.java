@@ -73,7 +73,7 @@ public class Fraction {
     public Fraction reduce() {
         int max = this.a > this.b ? this.a : this.b;
         if(this.b==0)return this;
-        for (int i = 2; i < max; i++) {
+        for (int i = max; i > 1; i--) {
             if (this.a % i == 0 && this.b % i == 0) {
                 this.a /= i;
                 this.b /= i;

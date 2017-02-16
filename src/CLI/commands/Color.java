@@ -38,7 +38,7 @@ public class Color implements ICommand {
                         case 'l':
                         result+=ANSI_RESET;
                         break;
-                            case 'c':
+                        case 'c':
                         result+=ANSI_CYAN;
                         break;
                         case 'r':

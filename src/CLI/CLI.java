@@ -14,7 +14,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 /**
- *
  * @author Gabriel.Maxfield
  */
 public class CLI {
@@ -61,7 +60,7 @@ public class CLI {
         }
     }
     public String nextString(){
-        System.out.print(userName+"> ");
+        System.out.print(userName+">");
         return scanner.nextLine();
     }
     

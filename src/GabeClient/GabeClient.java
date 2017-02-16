@@ -6,7 +6,6 @@
 package GabeClient;
 
 import CLI.CLI;
-import java.util.Scanner;
 
 /**
  *
@@ -21,13 +20,14 @@ public class GabeClient {
         CLI cli = new CLI();
         
         String result;
+        
         while(true){
             
         result = cli.processString(cli.nextString());
         System.out.println(result);
         //Send it:
-        if(result.trim().length()!=0)
-                ;
+//        if(result.trim().length()!=0)
+//                ;
         }
     }
     
