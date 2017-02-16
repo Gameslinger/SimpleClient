@@ -43,6 +43,7 @@ public class CLI {
          commands.add(new AntiBinaryCode());
          commands.add(new AntiHexCode());
          commands.add(new RandomString());
+         commands.add(new AtBash());
          
          for(ICommand com : commands){
              for(int i = 0; i < com.getKeys().length; i++){
